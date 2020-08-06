@@ -1,6 +1,6 @@
-== Vert.x WS end handler problem reproducer
+## Vert.x WS end handler problem reproducer
 
-=== Example with WS client https://dwst.github.io/
+### Example with WS client https://dwst.github.io/
 
 1. Start application in debug mode in IntelliJ :
 
@@ -16,7 +16,7 @@ Program arguments : run ws.reproducer.GatewayVerticle
 5. With Vert.x 3.8.5, the end handler is called and you should see the message in console : "Session {idSession} is closed.". With Vert.x 3.9.0 and higher, the end handler is not called.
 
 
-=== Example with Gatling WS request
+### Example with Gatling WS request
 
 1. Start reproducer as explained in first example
 
